@@ -77,8 +77,8 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
 
   & > li {
     position: relative;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     padding-left: 20px;
     
     &:not(:last-child) {
@@ -100,9 +100,10 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
   }
 
   &.list-dot > li {
-    gap: .5rem;
+    /* gap: .5rem; */
 
     & >span:last-child {
+      margin-left: .5rem;
       padding-left: .5rem;
       border-left: 1px solid var(--neutral-900);
     }
@@ -135,7 +136,7 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
     }
 
     & > a {
-      display: block;
+      display: inline-block;
       color: var(--primary-400);
       text-decoration: none;
       border-bottom: 1px solid var(--primary-400);
@@ -152,9 +153,9 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
 
 .hero {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
   aspect-ratio: 1920 / 400;
   text-align: center;
   background: no-repeat url("../images/hero-image.png") center 57% / cover;
@@ -167,6 +168,13 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -214,8 +222,6 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
 
 .footer {
   background-color: var(--neutral-100);
-  display: flex;
-  justify-content: center;
   padding: 4rem 0;
 
   & > .footer-info {
