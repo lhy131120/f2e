@@ -35,7 +35,6 @@ h2,
   font-size: 1.75rem;
   font-weight: 700;
   line-height: var(--line-height-sm);
-  letter-spacing: 0.05em;
   color: var(--neutral-white);
 }
 
@@ -43,7 +42,6 @@ h3 {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: var(--line-height-sm);
-  letter-spacing: 0.05em;
   color: var(--neutral-900);
   margin-bottom: 1.5rem;
 }
@@ -53,7 +51,6 @@ h4,
   font-size: 1.25rem;
   font-weight: 700;
   line-height: var(--line-height-sm);
-  letter-spacing: 0.05em;
   color: var(--primary-400);
   margin-bottom: 1rem;
 }
@@ -151,6 +148,10 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
   }
 }
 
+.letter-spacing-05 {
+  letter-spacing: 0.05em;
+}
+
 .hero {
   position: relative;
   /* display: flex; */
@@ -231,7 +232,6 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
       display: block;
       font-size: 0.875rem;
       color: var(--neutral-600);
-      letter-spacing: 0.05em;
 
       &:not(:last-child) {
         margin-bottom: .25rem;
@@ -239,3 +239,80 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
     }
   }
 }
+
+/* Page Loader Styles */
+/* .page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--neutral-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+}
+
+.page-loader.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader-content {
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.loader-spinner {
+  width: 60px;
+  height: 60px;
+  border: 4px solid var(--neutral-300);
+  border-top: 4px solid var(--primary-400);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1.5rem;
+}
+
+.loader-text {
+  font-size: 1.125rem;
+  color: var(--neutral-600);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.loader-progress {
+  width: 100%;
+  height: 4px;
+  background-color: var(--neutral-300);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.loader-progress-bar {
+  height: 100%;
+  background-color: var(--primary-400);
+  border-radius: 2px;
+  width: 0%;
+  transition: width 0.3s ease-out;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main-content {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.main-content.fade-in {
+  opacity: 1;
+} */
