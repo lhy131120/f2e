@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo - demo-2 - 產品列表</title>
+    <link rel="stylesheet" href="./src/style/global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center gap-3xl">
+          <h1><a href="javascript:;" class="logo"><img src="./src/images/icon-logo.svg" alt="URBNSTEP" /></a></h1>
+          <div class="d-flex flex-1 justify-content-between align-items-center">
+            <nav class="main-nav">
+              <ul class="d-flex gap-2xl">
+                <li><a href="javascript:;" class="fw-medium letter-spacing-sm">商品列表</a></li>
+                <li><a href="javascript:;" class="fw-medium letter-spacing-sm">品牌故事</a></li>
+              </ul>
+            </nav>
+            <div class="login">
+              <a href="javascript:;" class="d-flex justify-content-center align-items-center icon-icon-login">登入</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <div class="container">
+        <div class="product-detailsWrap py-64">
+          <div class="product-imageWrap">
+            <img src="./src/images/image.png" alt="PLATFORM 404">
+            <img src="./src/images/image-1.png" alt="PLATFORM 404">
+            <img src="./src/images/image-2.png" alt="PLATFORM 404">
+            <img src="./src/images/image-3.png" alt="PLATFORM 404">
+            <img src="./src/images/image-4.png" alt="PLATFORM 404">
+            <img src="./src/images/image-5.png" alt="PLATFORM 404">
+            <img src="./src/images/image-6.png" alt="PLATFORM 404">
+            <img src="./src/images/image-7.png" alt="PLATFORM 404">
+          </div>
+          <div class="details-infoWrap">
+            <div class="mb-32">
+              <nav class="breadcrumbWrap">
+                <ol class="breadcrumb d-flex align-items-center gap-xl">
+                  <li><a href="javascript:;">首頁</a></li>
+                  <li><a href="javascript:;">女鞋</a></li>
+                  <li><a href="javascript:;">滑板鞋</a></li>
+                  <li><a href="javascript:;" class="selected">Platform 404</a></li>
+                </ol>
+              </nav>
+              <h2>Platform 404</h2>
+              <div class="d-flex align-items-center gap-xs mb-16">
+                <span class="current-price h4 text-highlight">NT$2,600</span>
+                <del class="original-price text-muted text-sm letter-spacing-sm">NT$3,200</del>
+              </div>
+              <p class="letter-spacing-sm mb-12">Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。</p>
+              <p class="letter-spacing-sm mb-0">鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。</p>
+            </div>
+            <div class="mb-32">
+              <div class="select-area">
+                <div class="option-row">
+                  <p class="option-title">顏色</p>
+                  <ul class="option-list color-option">
+                    <li>
+                      <a href="javascript:;">
+                        <img class="option-img" src="./src/images/product.png" alt="PLATFORM 404 - 藍色">
+                        <span>藍色</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:;">
+                        <img class="option-img" src="./src/images/product-1.png" alt="PLATFORM 404 - 卡其色">
+                        <span>卡其色</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="option-row mb-0">
+                  <p class="option-title">尺寸</p> 
+                  <ul class="option-list size-option">
+                    <li class="selected">
+                      <a href="javascript:;"><span>35(22.5cm)</span></a>
+                    </li>
+                    <li>
+                      <a href="javascript:;"><span>36(23.0cm)</span></a>
+                    </li>
+                    <li>
+                      <a href="javascript:;"><span>37(23.5cm)</span></a>
+                    </li>
+                    <li>
+                      <a href="javascript:;"><span>38(24.0cm)</span></a>
+                    </li>
+                    <li>
+                      <a href="javascript:;"><span>39(24.5cm)</span></a>
+                    </li>
+                    <li>
+                      <a href="javascript:;"><span>40(25.0cm)</span></a>
+                    </li>
+                    <li>
+                      <a href="javascript:;"><span>41(26.0cm)</span></a>
+                    </li>
+                    <li class="disabled">
+                      <a href="javascript:;"><span>42(26.5cm)</span></a>
+                    </li>
+                    <li class="disabled">
+                      <a href="javascript:;"><span>43(27.0cm)</span></a>
+                    </li>
+                  </ul>
+                  <p class="alert-message">僅剩 3 雙</p>
+                </div>
+                <div class="btnWrap">
+                  <button class="btn withIcon collect-style active" type="button"><span class="btn-icon icon-icon-heart"></span>加入收藏</button>
+                  <button class="btn withIcon" type="button"><span class="btn-icon icon-icon-handbag"></span>門市預約試穿</button>
+                </div>
+              </div>
+            </div>
+            <div class="mb-32">
+              <ul class="rules">
+                <li class="rules-item">
+                  <span class="mb-4">商品材質</span>
+                  <span class="text-secondary">鞋面：合成皮革（Synthetic Leather）<br>
+                    內裡：透氣網布材質，提升舒適與排汗性<br>
+                    鞋底：EVA 輕量發泡橡膠，具備良好緩震與止滑效果<br>
+                    鞋帶：聚酯纖維，耐拉扯不易鬆脫</span>
+                </li>
+                <li class="rules-item">
+                  <span class="mb-4">購買須知</span>
+                  <span class="text-secondary">商品顏色因螢幕顯示可能略有差異，請以實品為準。<br>
+                    建議首次穿著前試穿確認尺寸，避免影響退換貨權益。<br>
+                    本商品為限量發售，庫存有限，如需更換尺寸請儘早聯繫客服協助處理。</span>
+                </li>
+                <li class="rules-item">
+                  <span class="mb-4">保養方式</span>
+                  <span class="text-secondary">建議以乾布或微濕軟布擦拭表面汙漬，避免機洗或長時間浸水。<br>
+                    收納時請放置於乾燥通風處，避免日曬及高溫導致變形或龜裂。<br>
+                    若需深層清潔，建議使用中性清潔劑並搭配柔刷輕刷，勿使用漂白水或強酸強鹼清潔劑。</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="best-seller py-48">
+          <h3 class="mb-16">你可能也喜歡...</h3>
+          <ul class="productList-content-list col-4">
+            <li class="item">
+              <a class="d-flex flex-column" href="javascript:;">
+                <span class="img"><img src="./src/images/product-2.png" alt="VM001"></span>
+                <span class="name">VM001</span>
+                <span class="price">NT$2,600</span>
+              </a>
+            </li>
+            <li class="item">
+              <a class="d-flex flex-column" href="javascript:;">
+                <span class="img"><img src="./src/images/product-3.png" alt="Melty Kiss"></span>
+                <span class="name">Melty Kiss</span>
+                <span class="price">NT$4,000</span>
+              </a>
+            </li>
+            <li class="item">
+              <a class="d-flex flex-column" href="javascript:;">
+                <span class="img"><img src="./src/images/product-4.png" alt="BOOMBLOK"></span>
+                <span class="name">BOOMBLOK</span>
+                <span class="price">NT$3,200</span>
+              </a>
+            </li>
+            <li class="item">
+              <a class="d-flex flex-column" href="javascript:;">
+                <span class="img"><img src="./src/images/product-7.png" alt="Sugar Snap"></span>
+                <span class="name">Sugar Snap</span>
+                <span class="price">NT$4,000</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="bg-primary-200 d-flex justify-content-center align-items-center gap-l py-24  mt-48">
+        <h3 class="m-0">加入會員取得 9 折優惠</h3>
+        <button href="javascript:;" class="btn" type="button">
+          馬上註冊
+        </button>
+      </div>
+      <div class="py-64">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="javascript:;" class="logo"><img src="./src/images/icon-logo.svg" alt="URBNSTEP" /></a>
+            <nav class="main-nav">
+              <ul class="d-flex gap-xl">
+                <li><a href="javascript:;" class="fw-medium letter-spacing-sm">商品列表</a></li>
+                <li><a href="javascript:;" class="fw-medium letter-spacing-sm">品牌故事</a></li>
+              </ul>
+            </nav>
+          </div>
+          <hr class="footer-divider" />
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-column text-center gap-2xs">
+              <span class="text-sm letter-spacing-sm text-secondary">Copyright ©2025 URBNSTYLE</span>
+              <span class="text-sm letter-spacing-sm text-secondary">All Rights Reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

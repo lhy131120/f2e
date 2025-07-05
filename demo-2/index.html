@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo - demo-2 - 產品列表</title>
+    <link rel="stylesheet" href="./src/style/global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center gap-3xl">
+          <h1><a href="javascript:;" class="logo"><img src="./src/images/icon-logo.svg" alt="URBNSTEP" /></a></h1>
+          <div class="d-flex flex-1 justify-content-between align-items-center">
+            <nav class="main-nav">
+              <ul class="d-flex gap-2xl">
+                <li><a href="javascript:;" class="fw-medium letter-spacing-sm">商品列表</a></li>
+                <li><a href="javascript:;" class="fw-medium letter-spacing-sm">品牌故事</a></li>
+              </ul>
+            </nav>
+            <div class="login">
+              <a href="javascript:;" class="d-flex justify-content-center align-items-center icon-icon-login">登入</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <nav class="breadcrumbWrap">
+          <ol class="breadcrumb d-flex align-items-center gap-xl">
+            <li><a href="javascript:;">首頁</a></li>
+            <li><a href="javascript:;" class="selected">所有商品</a></li>
+          </ol>
+        </nav>
+        <h2 class="h2">所有商品</h2>
+        <div class="productList d-flex gap-l">
+          <aside class="productList-category">
+            <ul class="d-flex flex-column gap-m">
+              <li class="active"><a href="javascript:;">所有商品</a></li>
+              <li><a href="javascript:;">慢跑鞋</a></li>
+              <li><a href="javascript:;">滑板鞋</a></li>
+              <li><a href="javascript:;">厚底鞋</a></li>
+              <li><a href="javascript:;">限定 / 聯名企劃</a></li>
+            </ul>
+          </aside>
+          <div class="productList-content">
+            <ul class="productList-content-list">
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product.png" alt="PLATFORM 404"></span>
+                  <span class="name">PLATFORM 404</span>
+                  <span class="price">NT$2,600</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product-1.png" alt="PLATFORM 404"></span>
+                  <span class="name">PLATFORM 404</span>
+                  <span class="price">NT$2,600</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product-2.png" alt="VM001"></span>
+                  <span class="name">VM001</span>
+                  <span class="price">NT$2,600</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product-3.png" alt="Melty Kiss"></span>
+                  <span class="name">Melty Kiss</span>
+                  <span class="price">NT$4,000</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product-4.png" alt="BOOMBLOK"></span>
+                  <span class="name">BOOMBLOK</span>
+                  <span class="price">NT$3,200</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product-5.png" alt="BOOMBLOK"></span>
+                  <span class="name">BOOMBLOK</span>
+                  <span class="price">NT$3,200</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product-6.png" alt="R:UNER"></span>
+                  <span class="name">R:UNER</span>
+                  <span class="price">NT$4,000</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product-7.png" alt="Sugar Snap"></span>
+                  <span class="name">Sugar Snap</span>
+                  <span class="price">NT$4,000</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="d-flex flex-column" href="javascript:;">
+                  <span class="img"><img src="./src/images/product-8.png" alt="Neofoam"></span>
+                  <span class="name">Neofoam</span>
+                  <span class="price">NT$4,000</span>
+                </a>
+              </li>
+            </ul>
+            <nav class="pagination d-flex justify-content-center">
+              <ul class="d-flex">
+                <li><a href="javascript:;" class="prev icon-icon-arrow-left disabled"><span class="sr-only">上一頁</span></a></li>
+                <li><a href="javascript:;" class="selected">1</a></li>
+                <li><a href="javascript:;">2</a></li>
+                <li><a href="javascript:;">3</a></li>
+                <li><a href="javascript:;">...</a></li>
+                <li><a href="javascript:;">10</a></li>
+                <li><a href="javascript:;" class="next icon-icon-arrow-right"><span class="sr-only">下一頁</span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <footer class="footer">
+      <div class="bg-primary-200 d-flex justify-content-center align-items-center gap-l py-24  mt-48">
+        <h3 class="m-0">加入會員取得 9 折優惠</h3>
+        <button href="javascript:;" class="btn" type="button">
+          馬上註冊
+        </button>
+      </div>
+      <div class="py-64">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="javascript:;" class="logo"><img src="./src/images/icon-logo.svg" alt="URBNSTEP" /></a>
+            <nav class="main-nav">
+              <ul class="d-flex gap-xl">
+                <li><a href="javascript:;" class="fw-medium letter-spacing-sm">商品列表</a></li>
+                <li><a href="javascript:;" class="fw-medium letter-spacing-sm">品牌故事</a></li>
+              </ul>
+            </nav>
+          </div>
+          <hr class="footer-divider" />
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-column text-center gap-2xs">
+              <span class="text-sm letter-spacing-sm text-secondary">Copyright ©2025 URBNSTYLE</span>
+              <span class="text-sm letter-spacing-sm text-secondary">All Rights Reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
