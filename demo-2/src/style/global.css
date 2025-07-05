@@ -166,6 +166,11 @@ img {
   transition: color 0.3s ease;
 }
 
+.main-nav a:hover,
+.main-nav a:focus {
+  color: var(--neutral-600);
+}
+
 .login a {
   position: relative;
   width: 48px;
@@ -180,7 +185,7 @@ img {
 }
 
 .login a:hover::before {
-  color: var(--primary-4 00);
+  color: var(--primary-400);
 }
 
 .breadcrumbWrap {
