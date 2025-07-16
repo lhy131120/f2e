@@ -159,7 +159,7 @@ ul:is(.list-dot, .list-mast, .list-arrow) {
   /* align-items: center; */
   aspect-ratio: 1920 / 400;
   text-align: center;
-  background: no-repeat url("../images/hero-image.png") center 57% / cover;
+  background: no-repeat url("/src/hero-image.png") center 57% / cover;
 
   &:before {
     content: "";
