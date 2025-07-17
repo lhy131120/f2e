@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?p09lek');
+  src:  url('fonts/icomoon.eot?p09lek#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?p09lek') format('truetype'),
+    url('fonts/icomoon.woff?p09lek') format('woff'),
+    url('fonts/icomoon.svg?p09lek#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-apple .path1:before {
+  content: "\e900";
+  color: rgb(40, 53, 68);
+}
+.icon-apple .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-facebook .path1:before {
+  content: "\e902";
+  color: rgb(0, 0, 0);
+}
+.icon-facebook .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-google .path1:before {
+  content: "\e904";
+  color: rgb(66, 133, 244);
+}
+.icon-google .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(52, 168, 83);
+}
+.icon-google .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(251, 188, 5);
+}
+.icon-google .path4:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(235, 67, 53);
+}
+.icon-icon-arrow-left:before {
+  content: "\e908";
+}
+.icon-icon-arrow-right:before {
+  content: "\e909";
+}
+.icon-icon-handbag:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-icon-heart:before {
+  content: "\e90b";
+}
+.icon-icon-login:before {
+  content: "\e90c";
+}
+.icon-sparkle:before {
+  content: "\e90d";
+}
+.icon-star:before {
+  content: "\e90e";
+}
